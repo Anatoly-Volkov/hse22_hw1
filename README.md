@@ -50,7 +50,10 @@ platanus assemble -f oil-pair1.fastq.trimmed oil-pair2.fastq.trimmed
 
 Получили файл out_contig.fa
 
-Анализ контигов в jupyter-notebook дает следующие результаты
+
+[jupyter-notebook c анализом контингов/скаффолдов](https://github.com/Anatoly-Volkov/hse22_hw1/blob/main/src/Bioinformatics-hw1-contigs-and-scaffolds.ipynb)
+
+### Анализ контигов в jupyter-notebook дает следующие результаты
 
 Кол-во контигов: 599
 
@@ -66,7 +69,7 @@ platanus scaffold -c out_contig.fa -IP1 oil-pair1.fastq.trimmed oil-pair2.fastq.
 
 Получили файл out_scaffold.fa
 
-Анализ скаффолдов в jupyter-notebook дает следующие результаты
+### Анализ скаффолдов в jupyter-notebook дает следующие результаты
 
 Кол-во скаффолдов: 95
 
