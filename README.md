@@ -35,11 +35,14 @@ multiqc .
 **Теперь подрежем чтения при помощи platanus и еще раз оценим качество**
 
 platanus_trim oil-pair1.fastq oil-pair2.fastq
+
 platanus_internal_trim oil-mate1.fastq oil-mate2.fastq
 
 ![](img/report4.jpg)
 ![](img/report5.jpg)
 ![](img/report6.jpg)
+
+Можно заметить, что длины чтений oil-mate уменьшились больше, чем в два раза, тогда как длины чтений oil-pair почти не изменились. При этом среднее качество прочтений значительно улучшилось после обрезания.
 
 
 
