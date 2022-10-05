@@ -32,6 +32,16 @@ multiqc .
 ![](img/report2.jpg)
 ![](img/report3.jpg)
 
+**Теперь подрежем чтения при помощи platanus и еще раз оценим качество**
+
+platanus_trim oil-pair1.fastq oil-pair2.fastq
+platanus_internal_trim oil-mate1.fastq oil-mate2.fastq
+
+![](img/report4.jpg)
+![](img/report5.jpg)
+![](img/report6.jpg)
+
+
 
 
 
